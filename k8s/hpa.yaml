@@ -7,13 +7,13 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: voting-app
-  minReplicas: 1
-  maxReplicas: 2
+  minReplicas: 4
+  maxReplicas: 26
   metrics:
   - type: Resource
     resource:
       name: memory
       target:
         type: Utilization
-        averageUtilization: 100
+        averageUtilization: 35 # Reduce this number  to trigger the HPA
           

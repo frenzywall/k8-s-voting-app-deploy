@@ -27,21 +27,14 @@ This repository contains a voting application built with [Go](https://golang.org
 ## Getting Started
 Enale kubernetes in docker desktop.
 
-### Step 1: In your bash shell/powershell:
+### Step 1: In your bash shell/powershell,Deploy to Kubernetes:
 Build the Docker image for the voting application:
 ```bash
-kubectl apply -f .
-```
-
-### Step 2: Deploy to Kubernetes
-Apply the Kubernetes configurations:
-```bash
-kubectl apply -f k8s/
+kubectl apply -f k8's/
 ```
 Apply again, if there's any error.
 
-
-### Step 3: Clean Up Existing Deployments (Optional)
+### Step 2: Clean Up Existing Deployments (Optional)
 To delete existing deployments and services:
 ```bash
 kubectl delete deployments --all
@@ -50,7 +43,7 @@ kubectl delete deployments --all -n monitoring
 kubectl delete services --all -n monitoring
 ```
 
-### Step 4: Monitor Pods and HPA
+### Step 3: Monitor Pods and HPA
 Terminal 1
 Check pods and HPA status:
 ```bash
@@ -60,7 +53,7 @@ Terminal 2
 ```bash
 kubectl get pods --selector=app=voting-app --watch
 ```
-### Step 5: Setting Up Your Metrics Server
+### Step 4: Setting Up Your Metrics Server
 
 Don't worry if you're seeing `<unknown>` in your Targets section - this is normal with Docker Desktop! Let's fix that:
 
