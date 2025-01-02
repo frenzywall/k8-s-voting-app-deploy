@@ -2,9 +2,10 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Go Version](https://img.shields.io/badge/go-1.18-blue)
 
-# K8s Voting App(This is a stripped down version, without source code. You can directly skip to step 2, to get the application running).
+# K8s Voting App
 
 > **Note**: Works best on edge,chrome,firefox(Adjust the zoom as per your screen size), and on mobile.
+> (This is a stripped down version, without source code. You can directly skip to step 2, to get the application running).
 
 ## 📚 Table of Contents
 - [🏞 Overview](#-overview)
