@@ -18,8 +18,8 @@ spec:
     spec:
       containers:
       - name: voting-app
-        image: ghcr.io/frenzywall/voting-app:v1.4
-        imagePullPolicy: IfNotPresent
+        image: ghcr.io/frenzywall/voting-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         env:
@@ -27,8 +27,8 @@ spec:
           value: redis
         resources:
           requests:
-            memory: "50Mi"  
-            cpu: "100m"    
+            memory: "128Mi"    
+            cpu: "200m"        
           limits:
-            memory: "100Mi"  
-            cpu: "205m"      
+            memory: "256Mi"   
+            cpu: "500m"       
