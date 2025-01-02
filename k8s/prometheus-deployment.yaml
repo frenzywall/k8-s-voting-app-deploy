@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: prometheus
-        image: prom/prometheus:latest
+        image: bitnami/prometheus:3.0.1-debian-12-r1
         args:
           - "--config.file=/etc/prometheus/prometheus.yml"
         ports:
