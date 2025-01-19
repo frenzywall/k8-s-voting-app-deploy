@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: voting-app
-        image: sreeramjvp/voting-apphub
+        image: sreeramjvp/voting-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
