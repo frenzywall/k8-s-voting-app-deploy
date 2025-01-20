@@ -1,4 +1,5 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Docker Pulls](https://img.shields.io/docker/pulls/sreeramjvp/voting-app)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Go Version](https://img.shields.io/badge/go-1.18-blue)
 
